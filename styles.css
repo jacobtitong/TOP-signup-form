@@ -55,3 +55,30 @@ body {
 .first-half div:nth-of-type(3) a {
     color: inherit;
 }
+
+.second-half {
+    width: 100%;
+    padding-left: 40px;
+}
+
+.second-half>div:first-child {
+    height: 30%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.second-half>div:first-child p:nth-of-type(1) {
+    margin-bottom: 10px;
+}
+
+.second-half>form {
+    height: 50%;
+}
+
+.second-half>p {
+    height: 20%;
+}
