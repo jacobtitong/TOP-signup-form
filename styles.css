@@ -35,6 +35,11 @@ body {
 
 .first-half div:nth-of-type(3) {
     height: 65%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
 }
 
 .logo-container img {
@@ -45,4 +50,8 @@ body {
     color: white;
     font-family: 'Norse';
     font-size: 7.5rem;
+}
+
+.first-half div:nth-of-type(3) a {
+    color: inherit;
 }
