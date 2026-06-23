@@ -162,3 +162,13 @@ body {
     color: gray;
     font-style: italic;
 }
+
+/* Button Animation */
+.form-button-container button:hover {
+    background-color: white;
+    color: #005451;
+}
+
+.log-in-prompt a:hover {
+    text-decoration: underline;
+}
