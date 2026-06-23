@@ -133,3 +133,14 @@ body {
     font-weight: 600;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.171);
 }
+
+.log-in-prompt {
+    height: 20%;
+    padding-left: 40px;
+}
+
+.log-in-prompt a {
+    font-weight: 600;
+    color: #005451;
+    text-decoration: none;
+}
