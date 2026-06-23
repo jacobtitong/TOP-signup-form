@@ -6,3 +6,17 @@
     font-style: normal;
     font-display: swap;
 }
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.first-half {
+    width: calc(1200px - 1vw);
+    background: url('img/ocean.jpg') no-repeat fixed center / cover;
+}
