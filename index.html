@@ -34,23 +34,23 @@
                 <div class="form-content-container">
                     <p>Let's do this!</p>
                     <div class="form-content">
-                        <label for="first-name">FIRST NAME
-                            <input type="text" name="first-name" id="first-name">
+                        <label for="first-name">*FIRST NAME
+                            <input type="text" name="first-name" id="first-name" required minlength="3" maxlength="20">
                         </label>
-                        <label for="last-name">LAST NAME
-                            <input type="text" name="last-name" id="last-name">
+                        <label for="last-name">*LAST NAME
+                            <input type="text" name="last-name" id="last-name" required minlength="3" maxlength="20">
                         </label>
-                        <label for="email">EMAIL
-                            <input type="email" name="email" id="email">
+                        <label for="email">*EMAIL
+                            <input type="email" name="email" id="email" required>
                         </label>
-                        <label for="phone-number">PHONE NUMBER
+                        <label for="phone-number">PHONE NUMBER <span class="form-tag">(optional)</span>
                             <input type="tel" name="phone-number" id="phone-number">
                         </label>
-                        <label for="password">PASSWORD
-                            <input type="password" name="password" id="password">
+                        <label for="password">*PASSWORD
+                            <input type="password" name="password" id="password" minlength="8" required>
                         </label>
-                        <label for="password">CONFIRM PASSWORD
-                            <input type="password" name="password" id="password">
+                        <label for="password">*CONFIRM PASSWORD
+                            <input type="password" name="password" id="password" minlength="8" required>
                         </label>
                     </div>
                 </div>

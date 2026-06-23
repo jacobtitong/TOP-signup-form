@@ -144,3 +144,21 @@ body {
     color: #005451;
     text-decoration: none;
 }
+
+/* Form Validations */
+.form-content label input:user-invalid {
+    border: 1px solid red;
+    background: #9c242411;
+}
+
+.form-content label input:focus {
+    border: 1px solid #24589c;
+    background-color: #24589c11;
+    outline: none;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.171);
+}
+
+.form-tag {
+    color: gray;
+    font-style: italic;
+}
